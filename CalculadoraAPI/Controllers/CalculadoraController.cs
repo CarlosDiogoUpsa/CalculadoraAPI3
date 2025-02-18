@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 
 namespace CalculadoraAPI.Controllers;
-//hola
+
 [ApiController]
 [Route("[controller]")] // Elimina "template:" para simplificar
 public class CalculadoraController : ControllerBase // Usa ControllerBase en lugar de Controller
